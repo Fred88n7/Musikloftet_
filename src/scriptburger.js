@@ -12,7 +12,7 @@ function toggleMenu() {
   let erSkjult = document.querySelector("#menu").classList.contains("hidden");
 
   if (erSkjult == true) {
-    document.querySelector("#menuknap").innerHTML = "#logo_burgermenu";
+    document.querySelector("#menuknap").innerHTML = "☰";
   } else {
     document.querySelector("#menuknap").textContent = "X";
   }
